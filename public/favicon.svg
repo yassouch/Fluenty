@@ -1,0 +1,13 @@
+<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fluenty-favicon-grad" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0A1F44" />
+      <stop offset="1" stop-color="#1E6BFF" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#fluenty-favicon-grad)" />
+  <rect x="19" y="15" width="9" height="34" rx="4.5" fill="#FFFFFF" />
+  <rect x="19" y="15" width="27" height="9" rx="4.5" fill="#FFFFFF" />
+  <rect x="19" y="30" width="19" height="9" rx="4.5" fill="#FFFFFF" />
+  <circle cx="47" cy="45" r="5" fill="#22D3EE" />
+</svg>

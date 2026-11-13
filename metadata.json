@@ -1,0 +1,6 @@
+{
+  "name": "Fluenty.services",
+  "description": "Présentation premium de la nouvelle identité de marque et des six pôles d'expertise de Fluenty.services : sites web, produits digitaux, publicité, design graphique, vidéo et documents.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

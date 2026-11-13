@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Sora", "Cairo", "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-sans: "Plus Jakarta Sans", "Cairo", system-ui, sans-serif;
+  --font-arabic: "Cairo", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  --color-marine: #0A1F44;
+  --color-fluenty-blue: #1E6BFF;
+  --color-sky: #5CC8FF;
+  --color-signal: #22D3EE;
+  --color-ice: #EAF3FF;
+  --color-canvas: #F6F9FF;
+  --color-mute: #4B5D80;
+  --color-line: #D8E3F5;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5.5rem;
+    font-family: var(--font-sans);
+    background-color: #F6F9FF;
+    color: #0A1F44;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+  }
+
+  html[dir="rtl"] body {
+    font-family: var(--font-arabic);
+  }
+
+  html[dir="rtl"] h1,
+  html[dir="rtl"] h2,
+  html[dir="rtl"] h3,
+  html[dir="rtl"] h4 {
+    font-family: var(--font-arabic);
+    letter-spacing: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
